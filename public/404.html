@@ -116,56 +116,14 @@
 </aside>
 
             <main class="main full-width">
-    <div class="not-found-card">
-        <h1 class="article-title">Not Found</h1>
-        <h2 class="article-subtitle">This page does not exist</h2>
-    </div><form action="/page/search/" class="search-form widget" data-json="/page/search/index.json">
-            <p>
-                <label>Search</label>
-                <input id="searchInput" name="keyword" required placeholder="Type something..." />
-            
-                <button title="Search">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="10" cy="10" r="7" />
-  <line x1="21" y1="21" x2="15" y2="15" />
-</svg>
-
-
-
-                </button>
-            </p>
-        </form>
-
-        <div class="search-result">
-            <h3 class="search-result--title section-title"></h3>
-            <div class="search-result--list article-list--compact"></div>
-        </div>
-        
-        <script>
-            window.searchResultTitleTemplate = "#PAGES_COUNT pages (#TIME_SECONDS seconds)"
-        </script><script type="text/javascript" src="/ts/search.js" defer></script>
-
-        <script>
-            const wrongUrl = new URL(window.location.href);
-
-            
-            const searchKeyword = decodeURIComponent(wrongUrl.pathname).split(/[/|-]/).join(' ').trim();
-
-            document.getElementById('searchInput').setAttribute('value', searchKeyword);
-        </script><footer class="site-footer">
-    <section class="copyright">
-        &copy; 
-        
-        2026 dailyremu
-    </section>
-    
-    <section class="powerby">
-        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
-        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="4.0.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
-    </section>
-</footer>
-
+<div style="text-align: center; padding: 60px 20px;">
+    <h1>페이지를 찾을 수 없습니다</h1>
+    <p>요청하신 페이지가 이전되었거나 존재하지 않습니다.</p>
+    <p style="margin-top: 20px;">
+        <a href="/" style="display: inline-block; padding: 12px 24px; background: var(--accent-color); color: #fff; border-radius: 8px; text-decoration: none;">홈으로 이동</a>
+        <a href="/page/search/" style="display: inline-block; padding: 12px 24px; background: var(--accent-color); color: #fff; border-radius: 8px; text-decoration: none; margin-left: 10px;">검색하기</a>
+    </p>
+</div>
 
             </main>
         </div>
