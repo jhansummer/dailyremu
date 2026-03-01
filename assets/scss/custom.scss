@@ -90,13 +90,17 @@
 
             &.current a {
                 background-color: var(--accent-color);
-                color: var(--accent-color-text);
+                color: #ffffff !important;
                 font-weight: 600;
                 box-shadow: var(--shadow-l2);
 
+                span {
+                    color: #ffffff !important;
+                }
+
                 svg {
                     opacity: 1;
-                    color: var(--accent-color-text);
+                    color: #ffffff !important;
                 }
             }
         }
