@@ -1,4 +1,14 @@
 {{ define "main" }}
+<script>
+(function(){
+  var defined_redirects = {{ readFile "static/redirects.json" | safeJS }};
+  var params = new URLSearchParams(window.location.search);
+  var pid = params.get('p') || params.get('page_id');
+  if (pid && defined_redirects[pid]) {
+    window.location.replace(defined_redirects[pid]);
+  }
+})();
+</script>
 <div style="text-align: center; padding: 60px 20px;">
     <h1>페이지를 찾을 수 없습니다</h1>
     <p>요청하신 페이지가 이전되었거나 존재하지 않습니다.</p>
