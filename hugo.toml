@@ -1,20 +1,44 @@
 baseURL = 'https://www.dailyremu.com/'
 languageCode = 'ko-KR'
-title = 'dailyremu - 부동산정보'
-theme = 'PaperMod'
+title = 'dailyremu'
+theme = 'hugo-theme-stack'
 
 [params]
-  defaultTheme = "auto"
-  ShowShareButtons = true
-  ShowReadingTime = true
-  ShowBreadCrumbs = true
-  ShowPostNavLinks = true
-  ShowCodeCopyButtons = true
   description = "부동산정보"
+  mainSections = ["posts"]
+  favicon = ""
 
-  [params.homeInfoParams]
-    Title = "dailyremu"
-    Content = "부동산정보"
+  [params.sidebar]
+    emoji = ""
+    subtitle = "부동산정보"
+
+  [params.article]
+    math = false
+    toc = false
+    readingTime = true
+
+  [[params.widgets.homepage]]
+    type = "search"
+  [[params.widgets.homepage]]
+    type = "categories"
+  [[params.widgets.homepage]]
+    type = "tag-cloud"
+    [params.widgets.homepage.params]
+      limit = 20
+  [[params.widgets.page]]
+    type = "toc"
+  [[params.widgets.page]]
+    type = "categories"
+
+  [params.defaultImage]
+    opengraph = ["featured", "cover", "thumbnail"]
+
+  [params.colorScheme]
+    toggle = true
+    default = "auto"
+
+[params.author]
+  name = "dailyremu"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
@@ -29,5 +53,16 @@ theme = 'PaperMod'
   filename = "sitemap.xml"
   priority = 0.5
 
-[params.author]
-  name = "dailyremu"
+[menu]
+  [[menu.main]]
+    name = "홈"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "카테고리"
+    url = "/categories/"
+    weight = 2
+  [[menu.main]]
+    name = "태그"
+    url = "/tags/"
+    weight = 3

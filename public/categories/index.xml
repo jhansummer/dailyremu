@@ -1,89 +1,75 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Categories on dailyremu - 부동산정보</title>
-    <link>http://localhost:1313/categories/</link>
-    <description>Recent content in Categories on dailyremu - 부동산정보</description>
-    <generator>Hugo -- 0.157.0</generator>
-    <language>ko-KR</language>
-    <lastBuildDate>Tue, 07 Jan 2025 20:42:47 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>부동산정보</title>
-      <link>http://localhost:1313/categories/%EB%B6%80%EB%8F%99%EC%82%B0%EC%A0%95%EB%B3%B4/</link>
-      <pubDate>Tue, 07 Jan 2025 20:42:47 +0900</pubDate>
-      <guid>http://localhost:1313/categories/%EB%B6%80%EB%8F%99%EC%82%B0%EC%A0%95%EB%B3%B4/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>분당-부동산정보</title>
-      <link>http://localhost:1313/categories/%EB%B6%84%EB%8B%B9-%EB%B6%80%EB%8F%99%EC%82%B0%EC%A0%95%EB%B3%B4/</link>
-      <pubDate>Tue, 07 Jan 2025 20:42:47 +0900</pubDate>
-      <guid>http://localhost:1313/categories/%EB%B6%84%EB%8B%B9-%EB%B6%80%EB%8F%99%EC%82%B0%EC%A0%95%EB%B3%B4/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>검단신도시</title>
-      <link>http://localhost:1313/categories/%EA%B2%80%EB%8B%A8%EC%8B%A0%EB%8F%84%EC%8B%9C/</link>
-      <pubDate>Fri, 15 Oct 2021 09:14:10 +0900</pubDate>
-      <guid>http://localhost:1313/categories/%EA%B2%80%EB%8B%A8%EC%8B%A0%EB%8F%84%EC%8B%9C/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>분양정보</title>
-      <link>http://localhost:1313/categories/%EB%B6%84%EC%96%91%EC%A0%95%EB%B3%B4/</link>
-      <pubDate>Thu, 29 Jul 2021 12:41:02 +0900</pubDate>
-      <guid>http://localhost:1313/categories/%EB%B6%84%EC%96%91%EC%A0%95%EB%B3%B4/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>전국-청약정보</title>
-      <link>http://localhost:1313/categories/%EC%A0%84%EA%B5%AD-%EC%B2%AD%EC%95%BD%EC%A0%95%EB%B3%B4/</link>
-      <pubDate>Thu, 29 Jul 2021 12:41:02 +0900</pubDate>
-      <guid>http://localhost:1313/categories/%EC%A0%84%EA%B5%AD-%EC%B2%AD%EC%95%BD%EC%A0%95%EB%B3%B4/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>부동산정책</title>
-      <link>http://localhost:1313/categories/%EB%B6%80%EB%8F%99%EC%82%B0%EC%A0%95%EC%B1%85/</link>
-      <pubDate>Sun, 25 Jul 2021 10:09:38 +0900</pubDate>
-      <guid>http://localhost:1313/categories/%EB%B6%80%EB%8F%99%EC%82%B0%EC%A0%95%EC%B1%85/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Gtx-B노선</title>
-      <link>http://localhost:1313/categories/gtx-b%EB%85%B8%EC%84%A0/</link>
-      <pubDate>Wed, 19 May 2021 00:04:45 +0900</pubDate>
-      <guid>http://localhost:1313/categories/gtx-b%EB%85%B8%EC%84%A0/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Gtx-C노선</title>
-      <link>http://localhost:1313/categories/gtx-c%EB%85%B8%EC%84%A0/</link>
-      <pubDate>Fri, 09 Apr 2021 12:52:24 +0900</pubDate>
-      <guid>http://localhost:1313/categories/gtx-c%EB%85%B8%EC%84%A0/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Gtx-A노선</title>
-      <link>http://localhost:1313/categories/gtx-a%EB%85%B8%EC%84%A0/</link>
-      <pubDate>Sat, 03 Apr 2021 09:55:10 +0900</pubDate>
-      <guid>http://localhost:1313/categories/gtx-a%EB%85%B8%EC%84%A0/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>인천</title>
-      <link>http://localhost:1313/categories/%EC%9D%B8%EC%B2%9C/</link>
-      <pubDate>Sat, 27 Mar 2021 20:18:06 +0900</pubDate>
-      <guid>http://localhost:1313/categories/%EC%9D%B8%EC%B2%9C/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>과천</title>
-      <link>http://localhost:1313/categories/%EA%B3%BC%EC%B2%9C/</link>
-      <pubDate>Wed, 10 Mar 2021 14:07:49 +0900</pubDate>
-      <guid>http://localhost:1313/categories/%EA%B3%BC%EC%B2%9C/</guid>
-      <description></description>
-    </item>
-  </channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Categories on dailyremu</title>
+        <link>https://www.dailyremu.com/categories/</link>
+        <description>Recent content in Categories on dailyremu</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>ko-KR</language>
+        <lastBuildDate>Tue, 07 Jan 2025 20:42:47 +0900</lastBuildDate><atom:link href="https://www.dailyremu.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+            <title>부동산정보</title>
+            <link>https://www.dailyremu.com/categories/%EB%B6%80%EB%8F%99%EC%82%B0%EC%A0%95%EB%B3%B4/</link>
+            <pubDate>Tue, 07 Jan 2025 20:42:47 +0900</pubDate>
+            <guid>https://www.dailyremu.com/categories/%EB%B6%80%EB%8F%99%EC%82%B0%EC%A0%95%EB%B3%B4/</guid>
+            <description></description>
+        </item><item>
+            <title>분당-부동산정보</title>
+            <link>https://www.dailyremu.com/categories/%EB%B6%84%EB%8B%B9-%EB%B6%80%EB%8F%99%EC%82%B0%EC%A0%95%EB%B3%B4/</link>
+            <pubDate>Tue, 07 Jan 2025 20:42:47 +0900</pubDate>
+            <guid>https://www.dailyremu.com/categories/%EB%B6%84%EB%8B%B9-%EB%B6%80%EB%8F%99%EC%82%B0%EC%A0%95%EB%B3%B4/</guid>
+            <description></description>
+        </item><item>
+            <title>검단신도시</title>
+            <link>https://www.dailyremu.com/categories/%EA%B2%80%EB%8B%A8%EC%8B%A0%EB%8F%84%EC%8B%9C/</link>
+            <pubDate>Fri, 15 Oct 2021 09:14:10 +0900</pubDate>
+            <guid>https://www.dailyremu.com/categories/%EA%B2%80%EB%8B%A8%EC%8B%A0%EB%8F%84%EC%8B%9C/</guid>
+            <description></description>
+        </item><item>
+            <title>분양정보</title>
+            <link>https://www.dailyremu.com/categories/%EB%B6%84%EC%96%91%EC%A0%95%EB%B3%B4/</link>
+            <pubDate>Thu, 29 Jul 2021 12:41:02 +0900</pubDate>
+            <guid>https://www.dailyremu.com/categories/%EB%B6%84%EC%96%91%EC%A0%95%EB%B3%B4/</guid>
+            <description></description>
+        </item><item>
+            <title>전국-청약정보</title>
+            <link>https://www.dailyremu.com/categories/%EC%A0%84%EA%B5%AD-%EC%B2%AD%EC%95%BD%EC%A0%95%EB%B3%B4/</link>
+            <pubDate>Thu, 29 Jul 2021 12:41:02 +0900</pubDate>
+            <guid>https://www.dailyremu.com/categories/%EC%A0%84%EA%B5%AD-%EC%B2%AD%EC%95%BD%EC%A0%95%EB%B3%B4/</guid>
+            <description></description>
+        </item><item>
+            <title>부동산정책</title>
+            <link>https://www.dailyremu.com/categories/%EB%B6%80%EB%8F%99%EC%82%B0%EC%A0%95%EC%B1%85/</link>
+            <pubDate>Sun, 25 Jul 2021 10:09:38 +0900</pubDate>
+            <guid>https://www.dailyremu.com/categories/%EB%B6%80%EB%8F%99%EC%82%B0%EC%A0%95%EC%B1%85/</guid>
+            <description></description>
+        </item><item>
+            <title>Gtx-B노선</title>
+            <link>https://www.dailyremu.com/categories/gtx-b%EB%85%B8%EC%84%A0/</link>
+            <pubDate>Wed, 19 May 2021 00:04:45 +0900</pubDate>
+            <guid>https://www.dailyremu.com/categories/gtx-b%EB%85%B8%EC%84%A0/</guid>
+            <description></description>
+        </item><item>
+            <title>Gtx-C노선</title>
+            <link>https://www.dailyremu.com/categories/gtx-c%EB%85%B8%EC%84%A0/</link>
+            <pubDate>Fri, 09 Apr 2021 12:52:24 +0900</pubDate>
+            <guid>https://www.dailyremu.com/categories/gtx-c%EB%85%B8%EC%84%A0/</guid>
+            <description></description>
+        </item><item>
+            <title>Gtx-A노선</title>
+            <link>https://www.dailyremu.com/categories/gtx-a%EB%85%B8%EC%84%A0/</link>
+            <pubDate>Sat, 03 Apr 2021 09:55:10 +0900</pubDate>
+            <guid>https://www.dailyremu.com/categories/gtx-a%EB%85%B8%EC%84%A0/</guid>
+            <description></description>
+        </item><item>
+            <title>인천</title>
+            <link>https://www.dailyremu.com/categories/%EC%9D%B8%EC%B2%9C/</link>
+            <pubDate>Sat, 27 Mar 2021 20:18:06 +0900</pubDate>
+            <guid>https://www.dailyremu.com/categories/%EC%9D%B8%EC%B2%9C/</guid>
+            <description></description>
+        </item><item>
+            <title>과천</title>
+            <link>https://www.dailyremu.com/categories/%EA%B3%BC%EC%B2%9C/</link>
+            <pubDate>Wed, 10 Mar 2021 14:07:49 +0900</pubDate>
+            <guid>https://www.dailyremu.com/categories/%EA%B3%BC%EC%B2%9C/</guid>
+            <description></description>
+        </item></channel>
 </rss>
