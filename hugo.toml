@@ -1,0 +1,33 @@
+baseURL = 'https://www.dailyremu.com/'
+languageCode = 'ko-KR'
+title = 'dailyremu - 부동산정보'
+theme = 'PaperMod'
+
+[params]
+  defaultTheme = "auto"
+  ShowShareButtons = true
+  ShowReadingTime = true
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
+  description = "부동산정보"
+
+  [params.homeInfoParams]
+    Title = "dailyremu"
+    Content = "부동산정보"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[params.author]
+  name = "dailyremu"
