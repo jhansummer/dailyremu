@@ -4,18 +4,26 @@ title = 'dailyremu'
 theme = 'hugo-theme-stack'
 
 [params]
-  description = "부동산정보"
+  description = "매일 아침, 부동산 인사이트를 전합니다"
   mainSections = ["posts"]
   favicon = ""
 
   [params.sidebar]
     emoji = ""
-    subtitle = "부동산정보"
+    subtitle = "매일 아침, 부동산 인사이트"
+    compact = false
 
   [params.article]
     math = false
-    toc = false
+    toc = true
     readingTime = true
+    headingAnchor = false
+    [params.article.list]
+      showTags = true
+
+  [params.footer]
+    since = 2021
+    customText = ""
 
   [[params.widgets.homepage]]
     type = "search"
@@ -55,14 +63,30 @@ theme = 'hugo-theme-stack'
 
 [menu]
   [[menu.main]]
+    identifier = "home"
     name = "홈"
     url = "/"
     weight = 1
+    [menu.main.params]
+      icon = "home"
   [[menu.main]]
+    identifier = "categories"
     name = "카테고리"
     url = "/categories/"
     weight = 2
+    [menu.main.params]
+      icon = "categories"
   [[menu.main]]
+    identifier = "tags"
     name = "태그"
     url = "/tags/"
     weight = 3
+    [menu.main.params]
+      icon = "tag"
+  [[menu.main]]
+    identifier = "search"
+    name = "검색"
+    url = "/page/search/"
+    weight = 4
+    [menu.main.params]
+      icon = "search"
