@@ -1,12 +1,16 @@
 baseURL = 'https://www.dailyremu.com/'
 languageCode = 'ko-KR'
-title = 'dailyremu'
+defaultContentLanguage = 'ko'
+title = 'dailyremu - 부동산·주식 투자 인사이트'
 theme = 'hugo-theme-stack'
+enableRobotsTXT = true
+paginate = 10
 
 [params]
-  description = "매일 아침, 부동산 인사이트를 전합니다"
+  description = "서울 부동산 시세, 재건축, GTX 교통호재, 주식 투자 전략까지. 매일 아침 데이터 기반 투자 인사이트를 전합니다."
   mainSections = ["posts"]
   favicon = ""
+  rssFullContent = true
 
   [params.sidebar]
     emoji = ""
@@ -48,6 +52,10 @@ theme = 'hugo-theme-stack'
 [params.author]
   name = "dailyremu"
 
+[params.opengraph]
+  [params.opengraph.twitter]
+    card = "summary_large_image"
+
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
@@ -57,11 +65,25 @@ theme = 'hugo-theme-stack'
       strikethrough = false
     [markup.goldmark.renderer]
       unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
 
 [sitemap]
-  changefreq = "weekly"
+  changefreq = "daily"
   filename = "sitemap.xml"
   priority = 0.5
+
+[related]
+  includeNewer = true
+  threshold = 80
+  toLower = true
+  [[related.indices]]
+    name = "tags"
+    weight = 100
+  [[related.indices]]
+    name = "categories"
+    weight = 80
 
 [menu]
   [[menu.main]]

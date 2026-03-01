@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /page/search/
+
+Sitemap: https://www.dailyremu.com/sitemap.xml
