@@ -1,0 +1,40 @@
+/* 좌측 사이드바 메뉴 영역 확장 */
+.left-sidebar {
+    min-width: 280px;
+
+    .menu {
+        li {
+            margin-bottom: 4px;
+
+            a {
+                display: flex;
+                align-items: center;
+                padding: 12px 20px;
+                border-radius: 8px;
+                font-size: 1.1rem;
+                font-weight: 500;
+                transition: background-color 0.2s;
+                width: 100%;
+
+                &:hover {
+                    background-color: var(--card-background);
+                }
+            }
+
+            &.current a {
+                background-color: var(--card-background);
+                font-weight: 700;
+                box-shadow: var(--shadow-l1);
+            }
+        }
+    }
+
+    .site-name {
+        font-size: 1.6rem;
+    }
+
+    .site-description {
+        font-size: 1rem;
+        margin-top: 4px;
+    }
+}
