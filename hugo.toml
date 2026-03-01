@@ -53,6 +53,8 @@ theme = 'hugo-theme-stack'
 
 [markup]
   [markup.goldmark]
+    [markup.goldmark.extensions]
+      strikethrough = false
     [markup.goldmark.renderer]
       unsafe = true
 
