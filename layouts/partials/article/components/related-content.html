@@ -1,0 +1,77 @@
+{{/* ===== 이전글 / 다음글 네비게이션 ===== */}}
+{{ $pages := where .Site.RegularPages "Section" "posts" }}
+{{ $prev := "" }}
+{{ $next := "" }}
+{{ range $i, $page := $pages }}
+    {{ if eq $page.Permalink $.Permalink }}
+        {{ if gt $i 0 }}
+            {{ $next = index $pages (sub $i 1) }}
+        {{ end }}
+        {{ if lt (add $i 1) (len $pages) }}
+            {{ $prev = index $pages (add $i 1) }}
+        {{ end }}
+    {{ end }}
+{{ end }}
+
+{{ if or $prev $next }}
+<div class="article-nav">
+    <h2 class="section-title">다른 글 읽기</h2>
+    <div class="article-nav--links">
+        {{ with $prev }}
+        <a href="{{ .RelPermalink }}" class="article-nav--link article-nav--prev">
+            <span class="article-nav--label">이전 글</span>
+            <span class="article-nav--title">{{ .Title }}</span>
+        </a>
+        {{ end }}
+        {{ with $next }}
+        <a href="{{ .RelPermalink }}" class="article-nav--link article-nav--next">
+            <span class="article-nav--label">다음 글</span>
+            <span class="article-nav--title">{{ .Title }}</span>
+        </a>
+        {{ end }}
+    </div>
+</div>
+{{ end }}
+
+{{/* ===== 같은 카테고리 최신글 ===== */}}
+{{ $currentCategories := .Params.categories }}
+{{ if $currentCategories }}
+    {{ $cat := index $currentCategories 0 }}
+    {{ $catPages := where .Site.RegularPages "Params.categories" "intersect" (slice $cat) }}
+    {{ $catPages = $catPages | first 7 }}
+    {{ $filtered := slice }}
+    {{ range $catPages }}
+        {{ if ne .Permalink $.Permalink }}
+            {{ $filtered = $filtered | append . }}
+        {{ end }}
+    {{ end }}
+    {{ $filtered = $filtered | first 6 }}
+    {{ with $filtered }}
+    <aside class="category-posts--wrapper">
+        <h2 class="section-title">{{ $cat }} 카테고리의 다른 글</h2>
+        <div class="category-posts">
+            {{ range . }}
+            <a href="{{ .RelPermalink }}" class="category-post--item">
+                <span class="category-post--date">{{ .Date.Format "01.02" }}</span>
+                <span class="category-post--title">{{ .Title }}</span>
+            </a>
+            {{ end }}
+        </div>
+    </aside>
+    {{ end }}
+{{ end }}
+
+{{/* ===== 관련 글 (태그 기반) ===== */}}
+{{ $related := (.Site.RegularPages.Related .) | first 6 }}
+{{ with $related }}
+<aside class="related-content--wrapper">
+    <h2 class="section-title">{{ T "article.relatedContent" }}</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            {{ range . }}
+                {{ partial "article-list/tile" (dict "context" . "size" "250x150" "Type" "articleList") }}
+            {{ end }}
+        </div>
+    </div>
+</aside>
+{{ end }}
