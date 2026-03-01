@@ -38,9 +38,10 @@ ${DETAIL}해주세요.
 1. 반드시 WebSearch로 최신 뉴스를 검색하고 WebFetch로 기사 내용을 확인해서 실제 데이터와 수치 기반으로 작성
 2. 기존 글 스타일 참고 (content/posts/ 내 최근 글 하나를 Read로 읽어볼 것)
 3. 글 저장: content/posts/${DATE}-주식-제목슬러그/index.md 형태로 Write로 저장
-4. frontmatter: title, date: ${DATE}T06:00:00+09:00, categories: [주식투자], tags 포함
+4. frontmatter에 반드시 포함: title, date: ${DATE}T06:00:00+09:00, categories: [주식투자], tags, description(150자 이내 요약문)
 5. 본문에 출처 링크 포함
-6. 저장 후 Bash로 git add, git commit, git push 실행"
+6. 물결표(~)는 취소선이 아니라 일반 텍스트로 사용
+7. 저장 후 Bash로 git add, git commit, git push 실행"
 
 cd "$BLOG_DIR"
 
