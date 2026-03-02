@@ -2,6 +2,8 @@
 # dailyremu 주식 자동 포스팅 스크립트
 # 매일 새벽 6시 실행 → 요일별 주제로 글 작성 → git push
 
+export TZ="Asia/Seoul"
+
 BLOG_DIR="/Users/hanjin/dailyremu"
 LOG_DIR="$BLOG_DIR/logs"
 DATE=$(date +%Y-%m-%d)
