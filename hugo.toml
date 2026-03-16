@@ -1,4 +1,4 @@
-baseURL = 'https://www.dailyremu.com/'
+baseURL = 'https://dailyremu.com/'
 languageCode = 'ko-KR'
 defaultContentLanguage = 'ko'
 title = 'dailyremu - 부동산·주식 투자 인사이트'
